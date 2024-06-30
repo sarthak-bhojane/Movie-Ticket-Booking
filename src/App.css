@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css */
+/* App.css */
+
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie-card {
+  margin: 10px;
+  width: 200px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.seat {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: #28a745;
+  color: #fff;
+}
